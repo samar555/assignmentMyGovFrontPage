@@ -1,0 +1,219 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+#nav1 {
+    background-color: #4267B2;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#left {
+    /* display: block; */
+    float: left;
+    margin-left: 17vh;
+  
+
+}
+#left img {
+    float: left;
+    height: 3vh;
+    width: 3vh;
+    margin: 7px;
+}
+#left ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    width: 5vh;
+}
+#left ul li  {
+    margin: 7px;
+    width: 221px;
+}
+#left ul {
+    list-style-type: none;
+    width: 90vh;
+}
+/* vertical line */
+.vl {
+
+    
+  }
+#right{
+  
+    float: right;
+    text-align: right;
+}
+#right ul{
+    list-style-type: none;
+    float: left;
+    margin: 7px;
+}
+ #right ul li {
+   display: inline;
+   color: white; 
+  
+}
+#right ul li a{
+    text-decoration: none;  
+    color: white; 
+ }
+ #button{
+     float: right;
+ }
+ 
+ #right ul li button{
+   height: 34px;
+}
+#right ul li span{
+    height: 34px;
+}
+/* nav2 */
+#nav2 {
+    background-color: #062666;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#nav2 #left {
+    /* display: block; */
+    float: left;
+    margin-left: 17vh;
+    width: 107vh;
+  
+
+}
+#nav2 #left img {
+    float: left;
+    height: 6vh;
+    width: 7vh;
+    margin: 7px;
+    background-color: #062666;
+}
+#nav2 #left img1{
+    margin-top: 2px ;
+}
+#nav2 #left ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    width: 5vh;
+}
+#nav2 #left ul li  {
+    margin: 7px;
+    width: 221px;
+}
+#nav2 #left ul {
+    list-style-type: none;
+    width: 90vh;
+}
+/* vertical line */
+.vl {
+
+    
+  }
+  #nav2 #right{
+  
+    float: right;
+    text-align: right;
+    /* margin: px; */
+    justify-content: center;
+    justify-items: center;
+}
+#nav2 #right ul{
+    list-style-type: none;
+    float: left;
+    margin: 7px;
+}
+#nav2 #right ul li {
+   display: inline;
+   color: white; 
+  
+}
+#nav2 #right ul li a{
+    text-decoration: none;  
+    color: white; 
+ }
+
+ 
+
+#nav2 #right ul li span{
+    height: 34px;
+    margin-right: 3px;
+    font-size: 34px;
+}
+#main{
+    display: flex;
+}
+/* left container */
+#main #leftcontainer{
+    float: left;
+   margin-left: 17vh;
+}
+/* right cona */
+#main #rightcontainer{
+    float: right;
+ 
+}
+#main #rightcontainer #group li{
+    display: inline-block;
+  
+}
+#main #rightcontainer #filter {
+    background-color: rgb(99, 97, 97);
+    height: 5vh;
+   
+    width: 65vw;
+    margin-right: 5vw;
+    
+}
+#main #rightcontainer #filter li{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+#main #rightcontainer #filter #search{
+    border: 1px solid rgb(99, 97, 97);
+    border-radius: 5px;
+    
+}
+#main #rightcontainer #container #opendisscussion{
+    margin-left: 34px;
+}
+#main #rightcontainer #container #opendisscussion li{
+    display: inline-block;
+}
+#main #rightcontainer #container #opendisscussion #img{
+   height: 20vh;
+   width: 20vw;
+}
+#secondmain #main2{
+background-color: rgb(54, 54, 173);
+}
+footer #mygov{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height: 34px;
+}
+#secondmain {
+    display: flex;
+}
+#secondmain #main2{
+    float: left;
+}
+#secondmain #main3{
+    float: right;
+}
+#secondmain #main3 img{
+    width: 28vw;
+    height: 78vh;
+}
+
